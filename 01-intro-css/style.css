@@ -1,0 +1,31 @@
+/* selector general, universal */
+*{
+margin: 0;
+padding: 0;
+/*font-size: 5px;  mueve toda la letra de la pagina */
+}
+/*  selector de etiquetas */
+body{
+    background-color: #422727; 
+    color: #fff;
+}
+/* selector de clases */
+.btn{
+    background-color: aquamarine;
+padding: 15px;
+}
+/* selector de  id */
+#social-icons{
+    background-color: rgba(197, 101, 66, 0.692);
+}
+/* selectores avanzados */
+#social-icons .btn{
+    border-radius: 8px;
+}
+/* pseudoclase */
+.btn:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+/* lo mejor en css es usar clases para agregar estilos */
+/* https://htmlreference.io/ para checar la  estructura de las etiquetas */

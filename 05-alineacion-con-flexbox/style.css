@@ -133,7 +133,7 @@ nav {
     position: absolute;
     right: 5%;
     bottom: 0%;
-    width: 250%;
+    width: 250px;
 }
 
 .fresa {
@@ -146,7 +146,7 @@ nav {
 
 .galleta {
     position: absolute;
-    width: 180%;
+    width: 150px;
     bottom: 0;
     right: 0;
     z-index: 1;

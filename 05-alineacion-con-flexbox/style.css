@@ -241,3 +241,115 @@ footer h3 {
     align-self: auto;
     width: 40%;
 }
+/* Sección Caracterírsticas */
+
+.letras {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.layout-Starbucks {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.left {
+  display: flex;
+  width: 298.4px;
+  height: 211px;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  width: 298.4px;
+  height: 211px;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.right {
+  display: flex;
+  width: 298.4px;
+  height: 211px;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.imagen1 {
+  align-self: flex-end;
+}
+
+.imagen2 {
+  align-self: flex-end;
+}
+
+.imagen3 {
+  align-self: flex-end;
+}
+
+
+/* Tablet */
+@media screen and (max-width: 890px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header-left {
+    justify-content: center;
+  }
+
+  .header-right {
+    justify-content: center;
+  }
+
+  .layout-Starbucks {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+
+  .imagen1,
+  .imagen2,
+  .imagen3 {
+    align-self: center;
+  }
+
+  .left,
+  .center,
+  .right {
+    height: auto;
+    width: auto;
+    padding: 0 30px;
+  }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .header-left {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header-right {
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 15px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
